@@ -6,7 +6,11 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'bg-luffy': "url('../../public/back.jpg')"
+      }
+    },
   },
   plugins: [],
 }

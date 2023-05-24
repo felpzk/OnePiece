@@ -13,6 +13,7 @@ export function HeaderUseClient() {
 
   return (
     <>
+    
       <li
         onClick={() => handleActivedClick('bando')}
         className={`text-zinc-100 font-bold hover:text-teal-400
@@ -27,7 +28,7 @@ export function HeaderUseClient() {
           decoration-teal-300 delay-75
           ${active == 'rec' ? 'underline' : ''} decoration-wavy
         `}>
-        <Link href={`#`}>RECOMPENSAS</Link>
+        <Link href={{pathname: '/recompensa'}}>RECOMPENSAS</Link>
       </li>
       <li
         onClick={() => handleActivedClick('frota')}

@@ -16,10 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className={`${inter.className} bg-zinc-300`}>
-        <Header/>
-        <main className='px-56'>
-         {children}
+      <body className={`${inter.className} bg-orange-100`}>
+        <Header />
+        <main>
+          {children}
         </main>
       </body>
     </html>
